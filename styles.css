@@ -1,0 +1,14 @@
+body {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote {
+    border: solid green 1px;
+    height: 250px;
+}
+
+button {
+    margin-top: 15px;
+}
