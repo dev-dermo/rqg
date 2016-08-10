@@ -11,7 +11,7 @@ $(document).ready(function() {
     ]
     
     $(".btn").on("click", function() {
-        var random = Math.floor((Math.random() * 5) + 1);
+        var random = Math.floor((Math.random() * 6));
         $(".quote").html("<blockquote>" + quotes[random][1] + "</blockquote><em>" + quotes[random][0] + "</em>");
     });
 });
